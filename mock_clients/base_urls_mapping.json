@@ -1,0 +1,33 @@
+{
+  "azure_log_analytics": {
+    "base_url": "api.loganalytics.io",
+    "mock_type": "fast_api",
+    "body": {
+      "the_frequency_percent_of_creating_incidents": 1,
+      "incidents": 2,
+      "update_incidents": 2,
+      "alerts": 2,
+      "update_alerts": 2,
+      "base_events": 2,
+      "missing_incidents": 0,
+      "pop_missing_incidents": 0,
+      "use_case_pattern": "default"
+    }
+  },
+  "qradar": {
+    "base_url": "api",
+    "mock_type": "fast_api"
+  },
+  "threat_connect": {
+    "base_url": "api/v2",
+    "mock_type": "fast_api"
+  },
+  "intsights": {
+    "base_url": "public/v1",
+    "mock_type": "flask_api"
+  },
+  "splunk": {
+    "base_url": "splunk",
+    "mock_type": "fast_api"
+  }
+}
